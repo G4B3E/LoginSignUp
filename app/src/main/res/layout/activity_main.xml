@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GuideRunner"
+        android:textColor="@color/white"
+        android:textSize="100px"
+        android:fontFamily="monospace"/>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="#5696B3"
+        app:hintTextColor="@color/white"
+        android:textColorHint="@color/white"
+        app:placeholderTextColor="@color/white"
+        app:boxStrokeColor="@color/white">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UsernameEditText"
+            android:hint="Username"
+            android:fontFamily="monospace"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="15px"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="#5696B3"
+        app:hintTextColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:placeholderTextColor="@color/white"
+        app:boxStrokeColor="@color/white">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EmailEditText"
+            android:hint="Email"
+            android:fontFamily="monospace"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asdasdasd"
+        app:cornerRadius="100px"
+        android:fontFamily="monospace"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asdasdasd"
+        app:cornerRadius="100px"
+        android:fontFamily="monospace"
+        />
+
+
+
+</LinearLayout>
